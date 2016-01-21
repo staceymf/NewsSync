@@ -10,3 +10,5 @@ User.create(name: 'Phil', password_digest: 'password')
 Feed.create(user_id: 1)
 
 Source.create(feed_id: 1, name: "HackerNews")
+Source.create(feed_id: 1, name: "TechCrunch")
+Source.create(feed_id: 1, name: "CNNTech")
