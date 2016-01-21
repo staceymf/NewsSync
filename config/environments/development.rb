@@ -38,4 +38,10 @@ Rails.application.configure do
 
   # Raises error for missing translations
   # config.action_view.raise_on_missing_translations = true
+
+  ENV['ORIGIN'] = 'http://localhost:8080'
+  ENV['OAUTH_CALLBACK'] = 'http://127.0.0.1:3000/access_token'
+  ENV['TWITTER_CONSUMER_KEY'] = 'vWaPq32ONt4EM4XYT5KiAi3wb'
+  ENV['TWITTER_CONSUMER_SECRET'] = 'swecZkrnQoXq2qPIGZLAVY45WUGqNFDPRu8jTOesMROI07nPxM'
+
 end

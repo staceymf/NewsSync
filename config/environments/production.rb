@@ -76,4 +76,10 @@ Rails.application.configure do
 
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
+
+  ENV['ORIGIN'] = 'http://localhost:8080'
+  ENV['OAUTH_CALLBACK'] = 'http://127.0.0.1:3000/access_token'
+
+  ENV['TWITTER_KEY'] = 'vWaPq32ONt4EM4XYT5KiAi3wb'
+  ENV['TWITTER_SECRET'] = 'swecZkrnQoXq2qPIGZLAVY45WUGqNFDPRu8jTOesMROI07nPxM'
 end
