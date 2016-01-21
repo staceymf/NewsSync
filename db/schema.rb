@@ -24,7 +24,7 @@ ActiveRecord::Schema.define(version: 20160121183814) do
 
   create_table "sources", force: :cascade do |t|
     t.integer  "feed_id"
-    t.string   "endpoint"
+    t.string   "name"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
